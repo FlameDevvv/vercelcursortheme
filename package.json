@@ -1,9 +1,10 @@
 {
 	"name": "vercel-cursor",
-	"displayName": "Vercel Cursor",
-	"description": "Vercel Cursor theme",
-	"version": "0.0.1",
+	"displayName": "Vercel Cursor Theme",
+	"description": "Theme with vercel color palette and cursor background colors",
+	"version": "0.0.3",
 	"publisher": "fleim",
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.99.0"
 	},
@@ -13,7 +14,8 @@
 	"keywords": [
 		"theme",
 		"vercel",
-		"cursor"
+		"cursor",
+		"nextjs"
 	],
 	"repository": {
 		"type": "git",
@@ -22,7 +24,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Cursor Vercel",
+				"label": "Vercel Cursor Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Cursor Vercel-color-theme.json"
 			}
